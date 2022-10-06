@@ -1,0 +1,37 @@
+body{
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif; /*trocar toda a fonte do site*/
+    color: rgb(34, 34, 34)
+}
+
+.foto-principal{
+    width: 200px;
+    border: 2px solid #ffffff; /* border simplifica outros 3 comandos (SHORTHAND):
+    border-width: 5px
+    border-style: solid dotted solid dotted (posso alterar somente um lado da borda usando esse comando na sequencia: top, right, bottom, left.)
+    border-color: black
+     */
+    border-radius: 50%; /*pode ser usado em valores de PX, ex: 150px [ PODE SER ALTERADO LADO INDIVIDUAIS DA BORDA, UTILIZANDO 4 VALORES: superior esquerdo, superior direito, inferior direito e inferior esquerdo] ex:border-radius: 50% 10% 30% 70% */
+    margin: 30px ; /*SHORTHAND em sentido horário para
+    margin-top: 30px;
+    margin-right 31px
+    margin-bottom: 100px;
+    margin-left: 101px; */
+    padding: 0px; /* adiciona espaçamento interno na imagem*/
+    box-shadow: 0px 0px 10px #959595; /* sombra do elemento: distancia da sombra na horizontal, distancia da sombra na vertical, desfoque da sombra, cor da sombra */
+}
+
+h1{
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(73 73 73);
+    font-weight: 100; /*remove ou adiciona o "negrito" na fonte */
+    letter-spacing: -1px; /*aumento ou diminui o espaçamento entre as letras*/
+}

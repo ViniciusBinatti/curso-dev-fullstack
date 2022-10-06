@@ -1,0 +1,21 @@
+body{
+    background: rgb(221, 221, 221);
+}
+
+p{
+    color: rgb(34, 34, 34)
+}
+
+.foto-principal{
+    width: 200px;
+    border: 2px solid #ffffff;
+    border-radius: 50% ; /*pode ser usado em valores de PX, ex: 150px [ PODE SER ALTERADO LADO INDIVIDUAIS DA BORDA, UTILIZANDO 4 VALORES: superior esquerdo, superior direito, inferior direito e inferior esquerdo] ex:border-radius: 50% 10% 30% 70% */
+
+    border-style: dotted solid dotted solid /*posso alterar somente um lado da borda usando esse comando na sequencia: top, right, bottom, left.*/
+
+    /* border simplifica outros 3 comandos (SHORTHAND):
+    border-width: 5px
+    border-style: solid
+    border-color: black
+     */
+}

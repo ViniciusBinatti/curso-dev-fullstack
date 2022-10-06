@@ -1,0 +1,23 @@
+body{
+    background: rgb(221, 221, 221);
+}
+
+p{
+    color: rgb(34, 34, 34)
+}
+
+.foto-principal{
+    width: 200px;
+    border: 2px solid #ffffff; /* border simplifica outros 3 comandos (SHORTHAND):
+    border-width: 5px
+    border-style: solid dotted solid dotted (posso alterar somente um lado da borda usando esse comando na sequencia: top, right, bottom, left.)
+    border-color: black
+     */
+    border-radius: 50%; /*pode ser usado em valores de PX, ex: 150px [ PODE SER ALTERADO LADO INDIVIDUAIS DA BORDA, UTILIZANDO 4 VALORES: superior esquerdo, superior direito, inferior direito e inferior esquerdo] ex:border-radius: 50% 10% 30% 70% */
+    margin: 30px 31px 100px 101px; /*SHORTHAND em sentido horário para
+    margin-top: 30px;
+    margin-right 31px
+    margin-bottom: 100px;
+    margin-left: 101px; */
+    
+}
